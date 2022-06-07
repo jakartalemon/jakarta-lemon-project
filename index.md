@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Jakarta Lemon Project
 
 You can use the [editor on GitHub](https://github.com/jakartalemon/jakarta-lemon-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
