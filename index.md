@@ -1,37 +1,50 @@
 ## Jakarta Lemon Project
 
-You can use the [editor on GitHub](https://github.com/jakartalemon/jakarta-lemon-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This project helps the developer to create [Jakarta EE](https://jakarta.ee/) applications faster, saving time in configuring them.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+With the help of a command and a configuration file, it will allow you to create the database configuration (Including the DataSource and the JPA).
 
-### Markdown
+With an `openapi.json` file it will allow you to create the rest services.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+And with another config file and another command, it will allow you to create a basic CRUD using JSF.
 
-```markdown
-Syntax highlighted code block
+Then, everything is in your hands so you can put the logic you need, modify what you want and adjust it to suit you.
 
-# Header 1
-## Header 2
-### Header 3
+# How to create the Jakarta EE app with Jakarta Lemon
 
-- Bulleted
-- List
+Using [Maven](https://maven.apache.org/):
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+mvn -DarchetypeGroupId=dev.jakartalemon \
+    -DarchetypeArtifactId=jakarta-lemon-archetype \
+    org.apache.maven.plugins:maven-archetype-plugin:generate
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Creating Persistence and Service layer
 
-### Jekyll Themes
+The `model.json` file indicates the structure of the entities to use
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jakartalemon/jakarta-lemon-project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+```
+mvn jakarta-lemon:create-model
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Creating RESTful service
+
+The `open.json` file indicates the structure of the entities to use
+
+
+```
+mvn jakarta-lemon:create-rest
+```
+
+
+## Creating View Layer with JSF
+
+The `view.json` file indicates the structure of the entities to use
+
+
+```
+mvn jakarta-lemon:create-view
+```
+
