@@ -31,7 +31,7 @@ mvn jakarta-lemon:create-model
 
 ## Creating RESTful service
 
-The `open.json` file indicates the structure of the entities to use
+The `openapi.json` file indicates the structure of the entities to use
 
 
 ```
