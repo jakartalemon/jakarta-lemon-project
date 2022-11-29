@@ -1,0 +1,34 @@
+{
+  "mysql": {
+    "g": "com.mysql",
+    "a": "mysql-connector-j",
+    "driver": "com.mysql.cj.jdbc.Driver",
+    "connectionpooldataSource": "com.mysql.cj.jdbc.MysqlConnectionPoolDataSource",
+    "datasource": "com.mysql.cj.jdbc.MysqlDataSource",
+    "xadatasource": "com.mysql.cj.jdbc.MysqlXADataSource"
+  },
+  "postgresql": {
+    "g": "org.postgresql",
+    "a": "postgresql",
+    "driver": "org.postgresql.Driver",
+    "connectionpooldataSource": "org.postgresql.ds.PGConnectionPoolDataSource",
+    "datasource": "org.postgresql.ds.PGSimpleDataSource",
+    "xadatasource": "org.postgresql.xa.PGXADataSource"
+  },
+  "mariadb": {
+    "g": "org.mariadb.jdbc",
+    "a": "mariadb-java-client",
+    "driver": "org.mariadb.jdbc.Driver",
+    "connectionpooldataSource": "org.mariadb.jdbc.MariaDbPoolDataSource",
+    "datasource": "org.mariadb.jdbc.MariaDbDataSource",
+    "xadatasource": "org.mariadb.jdbc.MariaDbDataSource"
+  },
+  "h2": {
+    "g": "com.h2database",
+    "a": "h2",
+    "driver": "org.h2.Driver",
+    "datasource": "org.h2.jdbcx.JdbcDataSource",
+    "xadatasource": "org.h2.jdbcx.JdbcDataSource",
+    "connectionpooldataSource": "org.h2.jdbcx.JdbcDataSource"
+  } 
+}
