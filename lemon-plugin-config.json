@@ -1,0 +1,28 @@
+{
+  "openliberty": {
+    "plugin": {
+      "version": "3.7.1",
+      "configuration": {
+        "runtimeArtifact": {
+          "enabled": true,
+          "groupId": "io.openliberty.beta",
+          "artifactId": "openliberty-runtime",
+          "version": "LATEST",
+          "type": "zip"
+        }
+      }
+    },
+    "server": {
+      "featureManager": {
+        "feature": [
+          "persistence-3.0",
+          "restfulWS-3.0",
+          "jsonp-2.0",
+          "jsonb-2.0",
+          "cdi-3.0",
+          "mpConfig-3.0"
+        ]
+      }
+    }
+  }
+}
