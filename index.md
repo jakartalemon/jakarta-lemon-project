@@ -9,6 +9,7 @@
   - [Creating Persistence and Service layer](#creating-persistence-and-service-layer)
   - [Creating RESTful service](#creating-restful-service)
   - [Creating View Layer with JSF](#creating-view-layer-with-jsf)
+
 ---
 
 # Summary
