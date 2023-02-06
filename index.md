@@ -1,9 +1,17 @@
-## Jakarta Lemon Project v1.2
+# Jakarta Lemon Project v1.2
 
-- Source https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/
-- Maven https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.2
+- Source [https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/](https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/)
+- Maven [https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.2](https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.2)
 
+## Contents
+- [Summary](#summary)
+- [How to create the Jakarta EE app with Jakarta Lemon](#how-to-create-the-jakarta-ee-app-with-jakarta-lemon)
+  - [Creating Persistence and Service layer](#creating-persistence-and-service-layer)
+  - [Creating RESTful service](#creating-restful-service)
+  - [Creating View Layer with JSF](#creating-view-layer-with-jsf)
+---
 
+# Summary
 
 This project helps the developer to create [Jakarta EE](https://jakarta.ee/) applications faster, saving time in configuring them.
 
