@@ -1,4 +1,4 @@
-# Jakarta Lemon Project v1.2
+# Jakarta Lemon Project v.1.2
 
 - Source [https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/](https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/)
 - Maven [https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.2](https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.2)
