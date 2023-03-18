@@ -1,7 +1,8 @@
-# Jakarta Lemon Project v.1.2
+# Jakarta Lemon Project v.1.3
 
 - Source [https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/](https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/)
-- Maven [https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.2](https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.2)
+- Maven [https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.3](https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.3)
+- Sonatype Project [https://central.sonatype.com/namespace/dev.jakartalemon](https://central.sonatype.com/namespace/dev.jakartalemon)
 
 ## Contents
 - [Summary](#summary)
@@ -9,6 +10,8 @@
   - [Creating Persistence and Service layer](#creating-persistence-and-service-layer)
   - [Creating RESTful service](#creating-restful-service)
   - [Creating View Layer with JSF](#creating-view-layer-with-jsf)
+- [Changelog](#changelog)
+  - [1.3](#13-2023-03-17)
 
 ---
 
@@ -392,4 +395,57 @@ The content is similar to this:
     }
 }
 
+```
+
+# Changelog
+
+## 1.3 - 2023-03-17
+
+- New multioption in JSF: `p:selectManyCheckbox`, `p:selectManyMenu`, `p:selectOneMenu`, `p:selectManyCheckbox` 
+
+Example, in `view.json` file:
+
+Shows Gender with `p:selectOneRadio` (`"optionsType":"radio"`)
+
+```json
+{
+  "formBeans": {
+    "customer": {
+      "gender": {
+        "type": "String",
+        "options": [
+          "female",
+          "male"
+        ],
+        "label":"Gender",
+        "optionsType":"radio"
+      }      
+    }
+  }
+}
+```
+
+With `p:selectOneMenu`:
+```json
+...
+        "optionsType":"radio"
+...
+```
+
+With multiselection (`p:selectManyCheckbox`  or `p:selectManyMenu`), add flag `multi:true`
+
+```json
+...
+        "interests":{
+            "type":"String",
+              "options": {
+                "S": "Sport",
+                "C": "Computing",
+                "R": "Reading"
+              },
+              "optionsType":"select",
+              "multi":true,
+              "label":"Intereses"
+      }
+...
 ```
