@@ -1,7 +1,7 @@
 # Jakarta Lemon Project v.1.3
 
 - Source [https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/](https://bitbucket.org/jakarta-lemon/jakarta-lemon-plugin/)
-- Maven [https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.3](https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.3)
+- Maven [https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.3](https://central.sonatype.com/artifact/dev.jakartalemon/jakarta-lemon-plugin/1.3.2)
 - Sonatype Project [https://central.sonatype.com/namespace/dev.jakartalemon](https://central.sonatype.com/namespace/dev.jakartalemon)
 
 ## Contents
