@@ -30,5 +30,13 @@
     "datasource": "org.h2.jdbcx.JdbcDataSource",
     "xadatasource": "org.h2.jdbcx.JdbcDataSource",
     "connectionpooldataSource": "org.h2.jdbcx.JdbcDataSource"
-  } 
+  } ,
+  "mssql": {
+    "g": "com.microsoft.sqlserver",
+    "a": "mssql-jdbc",
+    "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+    "datasource": "com.microsoft.sqlserver.jdbc.SQLServerDataSource",
+    "xadatasource": "com.microsoft.sqlserver.jdbc.SQLServerXADataSource",
+    "connectionpooldataSource": "com.microsoft.sqlserver.jdbc.SQLServerConnectionPoolDataSource"
+  }
 }
