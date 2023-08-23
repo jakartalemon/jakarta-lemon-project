@@ -1,6 +1,7 @@
 {
     "importables": {
         "LocalDate": "java.time.LocalDate",
-        "LocalDateTime": "java.time.LocalDateTime"
+        "LocalDateTime": "java.time.LocalDateTime",
+        "UUID":"java.util.UUID"
     }
 }
