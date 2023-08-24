@@ -3,5 +3,11 @@
         "LocalDate": "java.time.LocalDate",
         "LocalDateTime": "java.time.LocalDateTime",
         "UUID":"java.util.UUID"
+    },
+    "databases":{
+        "h2":{
+            "driver":"org.h2.Driver",
+            "search":"q=g:com.h2database+AND+a:h2"
+        }
     }
 }
