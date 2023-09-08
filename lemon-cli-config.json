@@ -7,7 +7,13 @@
     "databases":{
         "h2":{
             "driver":"org.h2.Driver",
+            "datasource":"org.h2.jdbcx.JdbcDataSource",
             "search":"q=g:com.h2database+AND+a:h2"
+        },
+        "mysql":{
+            "driver":"com.mysql.cj.jdbc.Driver",
+            "datasource":"com.mysql.cj.jdbc.Driver",
+            "search":"q=g:mysql+AND+a:mysql-connector-java"
         }
     }
 }
