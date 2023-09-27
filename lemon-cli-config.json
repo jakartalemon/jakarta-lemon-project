@@ -2,18 +2,42 @@
     "importables": {
         "LocalDate": "java.time.LocalDate",
         "LocalDateTime": "java.time.LocalDateTime",
-        "UUID":"java.util.UUID"
+        "UUID": "java.util.UUID"
     },
-    "databases":{
-        "h2":{
-            "driver":"org.h2.Driver",
-            "datasource":"org.h2.jdbcx.JdbcDataSource",
-            "search":"q=g:com.h2database+AND+a:h2"
+    "anotations-props": {
+        "Column": {
+            "columnDefinition": "String",
+            "insertable": "Boolean",
+            "length": "Integer",
+            "name": "Integer",
+            "name": "String",
+            "nullable": "Boolean",
+            "precision": "Integer",
+            "table": "String",
+            "unique": "Boolean",
+            "updatable": "Boolean"
         },
-        "mysql":{
-            "driver":"com.mysql.cj.jdbc.Driver",
-            "datasource":"com.mysql.cj.jdbc.Driver",
-            "search":"q=g:mysql+AND+a:mysql-connector-java"
+        "JoinColumn": {
+            "name": "String",
+            "referencedColumnName": "String",
+            "unique": "Boolean",
+            "insertable": "Boolean",
+            "updatable": "Boolean",
+            "nullable": "Boolean",
+            "columnDefinition": "String",
+            "table": "String" 
+        }
+    },
+    "databases": {
+        "h2": {
+            "driver": "org.h2.Driver",
+            "datasource": "org.h2.jdbcx.JdbcDataSource",
+            "search": "q=g:com.h2database+AND+a:h2"
+        },
+        "mysql": {
+            "driver": "com.mysql.cj.jdbc.Driver",
+            "datasource": "com.mysql.cj.jdbc.Driver",
+            "search": "q=g:mysql+AND+a:mysql-connector-java"
         }
     }
 }
