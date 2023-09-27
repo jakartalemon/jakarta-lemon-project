@@ -4,7 +4,7 @@
         "LocalDateTime": "java.time.LocalDateTime",
         "UUID": "java.util.UUID"
     },
-    "anotations-props": {
+    "annotations-props": {
         "Column": {
             "columnDefinition": "String",
             "insertable": "Boolean",
